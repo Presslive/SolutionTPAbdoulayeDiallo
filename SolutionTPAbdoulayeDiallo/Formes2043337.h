@@ -7,14 +7,32 @@ using namespace std;
 
 #pragma once
 
-/*Dessinertriangle()
-Dessinertriangle2()
-Dessinertrinagle3()
-Dessinertriangle4()
-Dessinertriangle5
-traiterRectangle()
-traiterTriangle()
-traiterCarre()
-traiterLosange()
-genererNombreAleatoire()*/
+										//Fonction pour Dessiner les formes
+void Dessinerrectangle(int hauteur, int largeur);				
+void DessinerrectangleVide(int hauteur, int largeur);
+void Dessinertriangle(int  hauteur);
+void Dessinertriangle2(int hauteur);
+void Dessinertriangle3(int hauteur);
+void Dessinertriangle4(int hauteur);
+void DessinertriangleVide(int hauteur);
+void DessinertriangleVide2(int hauteur);
+void DessinertriangleVide3(int hauteur);
+void DessinertriangleVide4(int hauteur);
+void Dessinercarrer(int hauteur);
+void DessinercarrerVide(int hauteur);
+void DessinerLosange(int hauteur);
+void DessinerLosangeVide (int hauteur);
+
+									//Fonction pour Traiter les formes Dessiner 
+void traiterRectangle();
+void traiterTriangle();
+void traiterTriangleVide();
+void traiterRectangleVide();
+void traiterCarre();
+void traiterCarreVide();
+void traiterLosange();
+void traiterLosangeVide();
+
+//Fonction qui génere nombre aléatoire; Par Karine Monreau 
+int genererAlea();
 

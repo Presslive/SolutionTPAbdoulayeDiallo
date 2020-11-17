@@ -1,4 +1,4 @@
-	// But :	   Programme qui dessine des formes aux dimensions diverses, pleines ou vides, selon les choix que l'utilisateur fait dans les menus	   
+// But :	   Programme qui dessine des formes aux dimensions diverses, pleines ou vides, selon les choix que l'utilisateur fait dans les menus	   
 // Auteur :	   Karine Moreau
 // Date :      6 Octobre 2020
 
@@ -27,7 +27,7 @@ int main()
 	srand(time(NULL));	            // Permet d'initialiser le random seed
 	setlocale(LC_ALL,"");            // Permet de gérer les caractères accentués
 
-   // Afficher le menu des formes et lire un choix valide
+   //Afficher le menu des formes et lire un choix valide
 	
 	choixForme = validerMenu(1 /* choix du menu des formes */, QUITTER /* Nombres d'options au menu */);
 	
@@ -38,8 +38,8 @@ int main()
 		// Afficher le menu du remplissage et lire un choix valide
       choixRemplissage = validerMenu(2 /* Menu du remplissage */, RETOUR /* Nombres d'options au menu */);
 
-		// Si l'utilisateur n'est pas revenu au menu principal
-      /*if (choixRemplissage != RETOUR)
+/*	 // Si l'utilisateur n'est pas revenu au menu principal
+      if (choixRemplissage != RETOUR)
 	   {
 			// Ici, l'utilisateur a fait le choix d'une forme et du remplissage, il nous reste à traiter et dessiner la forme
 			switch (choixForme)
@@ -60,9 +60,10 @@ int main()
 					break;
 			} // Fin du switch
 	   }// fin du if
+*/
 
       // On présente de nouveau le menu principal des choix des formes et on lit le choix de l'utilisateur
-	   choixForme = validerMenu(1 /* Menu des formes*///, QUITTER  /*Nombres d'options au menu*/);
+	   choixForme = validerMenu(1 /* Menu des formes*/, QUITTER  /*Nombres d'options au menu*/);
 
 	} // Fin du while (choixForme != iQUITTER)
 	return 0;

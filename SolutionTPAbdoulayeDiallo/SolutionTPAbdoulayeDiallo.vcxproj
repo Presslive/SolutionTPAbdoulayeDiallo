@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Formes2043337.cpp" />
     <ClCompile Include="Menus2043337.cpp" />
     <ClCompile Include="TP1Test.cpp" />
   </ItemGroup>
